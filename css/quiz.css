@@ -72,6 +72,8 @@
         height: 80px; 
         border-radius: 50%; 
         overflow: hidden; 
+        margin-left: 2rem;
+        
     }
 
     h2{
@@ -106,7 +108,7 @@
   /* (B) QUESTION */
   #quizQn {
     padding: 20px;
-    background: #4c93ba;
+    background: #B8009E;
     color: #fff;
     font-size: 24px;
     border-radius: 10px;
@@ -347,7 +349,7 @@ body {
   display: flex;
   align-items: center; justify-content: center;
   min-height: 100vh;
-  background-image: url(https://images.unsplash.com/photo-1554034483-04fda0d3507b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0ODAwMTA1MQ&ixlib=rb-1.2.1&q=85);
+  background-image: url('/images/background.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -459,9 +461,12 @@ body {
 
 .main {
     min-height: 100vh;
-    background: url('background.jpg') no-repeat;
+    background: url('') no-repeat;
     background-size: cover;
     background-position: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 20rem;
 }
 
 .home {
@@ -586,46 +591,7 @@ body {
 .homepage p {
     font-size: 0.5rem;
 }
-.quiz-guide {
-    width: 10rem;
-    height: 3rem;
-    background: #c40094;
-    color: #fff;
-    border: 0.1rem solid #fff;
-    outline: none;
-    border-radius: 3rem;
-    box-shadow: 0 0 0.1rem #c40094;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    font-weight: 700;
-    cursor: pointer;
-    transition: .5s;
-}
-.quiz-guide:hover {
-    background: #490045;
-    color: #fff;
-}
 
-/* A D D I N G   R E S P O N S I V E N E S S    */
-
-@media screen and (max-width: 600px)
-  {
-    .homepage h1 {
-        font-size: 1px;
-    }
-    .start-btn {
-        width: 5rem;
-        height: 1.5rem;
-        font-size: 1rem;
-        letter-spacing: 0.1rem;
-        font-weight: 700;
-        cursor: pointer;
-        transition: .5s;
-        position: unset;
-        left: 22rem;
-        bottom: 17rem;
-    }
-  }
 
   .bubbles img {
     width: 50px;
@@ -637,7 +603,7 @@ body {
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom: 0;
+    bottom: 150;
 
   }
   @keyframes bubble {
@@ -682,5 +648,8 @@ body {
   }
 
 .welcome-container {
-    background-image: url("background.jpg");
+    background-image: url("/images/pinklights.jpg");
+}
+#logo {
+  width: 5.5rem;
 }
