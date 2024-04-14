@@ -74,6 +74,39 @@ var quiz = {
       ],
       a: 0,
     },
+
+    {
+      q: "Which of the following is not a valid way to declare a JavaScript variable?",
+      o: ["var myVar = 10",
+          "let myVar = 10", 
+          "variable myVar = 10",
+          "const myVar = 10" ],
+      a: 2
+    },
+
+    {
+      q: "Which operator is used to concatenate strings in JavaScript?",
+      o: ["+","-","/","*"],
+      a: 0
+    },
+
+    {
+      q: "Which symbol is used for single comments in Javascript?",
+      o: ["##", "//", "**","||"],
+      a: 1
+    },
+
+    {
+      q: "Which one of the folloing is not looping structures in JavaScript?",
+      o: ["For","Do-while","While","Repeat"],
+      a: 3
+    },
+
+    {
+      q: "Which HTML tag is used to define an unordered list? <''> ",
+      o: ["ul", "ol", "li", "list"],
+      a: 0
+    }
   ],
 
   // (A2) HTML ELEMENTS
