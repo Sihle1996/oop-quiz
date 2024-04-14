@@ -35,7 +35,7 @@
     }
     
     .sidebar{
-        background-color: rgb(237, 233, 233);
+        
         position: fixed;
         bottom: 0;
         top: 0;
@@ -48,10 +48,13 @@
      color: rgb(15, 6, 6);
      padding: 20px;
      margin: 30px;
-     color: black;
-     background-color: whitesmoke;
+     color: white;
      list-style: none;
      margin-left: 0;
+     font-weight: 600;
+   }
+   .side:hover {
+    color: #c40094;
    }
     
     body{
@@ -73,7 +76,7 @@
         border-radius: 50%; 
         overflow: hidden; 
         margin-left: 2rem;
-        
+        margin-bottom: 20rem;
     }
 
     h2{
@@ -108,7 +111,7 @@
   /* (B) QUESTION */
   #quizQn {
     padding: 20px;
-    background: #B8009E;
+    background: #4c93ba;
     color: #fff;
     font-size: 24px;
     border-radius: 10px;
@@ -259,7 +262,7 @@
   /* (A) WRAPPER */
 #quizWrap {
   max-width: 600px;
-  margin: 0 auto;
+  margin: auto;
   /* RECOMMENDED FIXED HEIGHT IF YOU HAVE CONTENT BELOW THE QUIZ */
   /* SO THAT PAGE LAYOUT DOES NOT "JUMP" */
   /* height: 250px; */
@@ -311,8 +314,7 @@ body {
   display: flex;
   align-items: center; justify-content: center;
   min-height: 100vh;
-  background-image: url(https://images.unsplash.com/photo-1554034483-04fda0d3507b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0ODAwMTA1MQ&ixlib=rb-1.2.1&q=85);
-  background-repeat: no-repeat;
+  background-image: url();
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -380,7 +382,7 @@ body {
 /* (B) QUESTION */
 #quizQn {
   padding: 20px;
-  background: #4c93ba;
+  background: #B2008A;
   color: #fff;
   font-size: 24px;
   border-radius: 10px;
@@ -409,7 +411,7 @@ body {
 }
 #quizAns label.wrong {
   background: #ffe8e8;
-  border: 1px solid #c78181;
+  border: 1px solid red;
 }
 
 /* ui redesign */
@@ -648,8 +650,14 @@ body {
   }
 
 .welcome-container {
-    background-image: url("/images/pinklights.jpg");
+    background-image: url("");
 }
 #logo {
   width: 5.5rem;
+}
+.sidebar {
+  background-color: #6E0061;
+  margin-top: 10rem;
+  opacity: 0.5;
+  margin-bottom: 0;
 }
