@@ -457,7 +457,7 @@ body {
     margin-left: 3rem;
     transition: .3s;
 }
-.navbar a:hover, .navbar a.active {
+.navbar a:hover, .navbar a.active, .docs-link:hover {
     color: #c40094;
 }
 
@@ -656,8 +656,10 @@ body {
   width: 5.5rem;
 }
 .sidebar {
-  background-color: #6E0061;
-  margin-top: 10rem;
-  opacity: 0.5;
+  margin-top: 3rem;
   margin-bottom: 0;
+}
+.docs-link {
+  text-decoration: none;
+  color: white;
 }

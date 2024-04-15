@@ -25,7 +25,7 @@ var quiz = {
     },
     {
       q: "What is the process by which one can acquire the properties of another object ?",
-      o: ["Encapsulation", "Inheritance", "Polymorphism"],
+      o: ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
       a: 1,
     },
     {
