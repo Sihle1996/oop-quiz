@@ -664,7 +664,8 @@ body {
 }
 .sidebar {
   background-color: #6E0061;
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
+  margin-top: 100px;
   opacity: 0.5;
   margin-bottom: 0;
 }
