@@ -40,8 +40,11 @@
         bottom: 0;
         top: 0;
         left: 0;
-        width: 12%;
-        padding-top: 120px;
+        width: 10%;
+        padding-top: 200px;
+        box-shadow: 1px 0 0 0 ff00ff55; 
+       
+
     
     }
     .side{
@@ -52,6 +55,7 @@
      list-style: none;
      margin-left: 0;
      font-weight: 600;
+     
    }
    .side:hover {
     color: #c40094;
@@ -434,12 +438,15 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    /* padding: 2.7vh 10%; */
+    padding: 26px 10%;
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    box-shadow: 0 1px 0 0 #ff00ff55;
+    /* height: 12%; */
 }
 
 .logo {
@@ -657,7 +664,9 @@ body {
 }
 .sidebar {
   background-color: #6E0061;
-  margin-top: 10rem;
+  /* margin-top: 5.5rem; */
+  margin-top: 100px;
+    /* opacity: 0.5; */
   opacity: 0.5;
   margin-bottom: 0;
 }
